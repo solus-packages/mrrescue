@@ -1,0 +1,36 @@
+<PISI>
+    <Source>
+        <Name>mrrescue</Name>
+        <Packager>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
+        </Packager>
+        <License>BSD-3-Clause</License>
+        <License>CC-BY-SA-3.0</License>
+        <PartOf>games.platformer</PartOf>
+        <Summary xml:lang="en">Mr. Rescue is an arcade styled 2d action game centered around evacuating civilians from burning buildings.</Summary>
+        <Description xml:lang="en">Mr. Rescue is an arcade styled 2d action game centered around evacuating civilians from burning buildings.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>mrrescue</Name>
+        <Summary xml:lang="en">Mr. Rescue is an arcade styled 2d action game centered around evacuating civilians from burning buildings.</Summary>
+        <Description xml:lang="en">Mr. Rescue is an arcade styled 2d action game centered around evacuating civilians from burning buildings.
+</Description>
+        <PartOf>games.platformer</PartOf>
+        <Files>
+            <Path fileType="data">/usr/share/applications/mrrescue.desktop</Path>
+            <Path fileType="data">/usr/share/mrrescue</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2016-10-29</Date>
+            <Version>1.02e</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
+        </Update>
+    </History>
+</PISI>
