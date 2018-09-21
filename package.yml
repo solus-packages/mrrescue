@@ -1,8 +1,8 @@
 name       : mrrescue
 version    : 1.02e
-release    : 1
+release    : 2
 source     :
-    - https://github.com/SimonLarsen/mrrescue/releases/download/1.02e/mrrescue1.02e.love : 82bea4e830cb69dcf03e173b6b2eb37ae5d8ea03e6e8c38c8a8586fb265f9f4b
+    - git|https://github.com/SimonLarsen/mrrescue.git : a5be73c60acb8d1be506f7b5e48e784492ba96ce
 license    :
     - BSD-3-Clause
     - CC-BY-SA-3.0
@@ -10,9 +10,10 @@ component  : games.platformer
 summary    : Mr. Rescue is an arcade styled 2d action game centered around evacuating civilians from burning buildings.
 description: |
     Mr. Rescue is an arcade styled 2d action game centered around evacuating civilians from burning buildings.
-extract    : no
 rundeps    :
     - love
+build      : |
+    zip mrrescue.zip -r *
 install    : |
     install -D -m 00644 $pkgfiles/mrrescue.desktop $installdir/usr/share/applications/mrrescue.desktop
-    install -D -m 00644 $sources/mrrescue$version.love $installdir/usr/share/mrrescue/mrrescue.love
+    install -D -m 00644 mrrescue.zip $installdir/usr/share/mrrescue/mrrescue.love
