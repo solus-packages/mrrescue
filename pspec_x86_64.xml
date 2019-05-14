@@ -2,8 +2,8 @@
     <Source>
         <Name>mrrescue</Name>
         <Packager>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Packager>
         <License>BSD-3-Clause</License>
         <License>CC-BY-SA-3.0</License>
@@ -11,7 +11,7 @@
         <Summary xml:lang="en">Mr. Rescue is an arcade styled 2d action game centered around evacuating civilians from burning buildings.</Summary>
         <Description xml:lang="en">Mr. Rescue is an arcade styled 2d action game centered around evacuating civilians from burning buildings.
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>mrrescue</Name>
@@ -25,12 +25,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2018-09-21</Date>
+        <Update release="3">
+            <Date>2019-05-14</Date>
             <Version>1.02e</Version>
             <Comment>Packaging update</Comment>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Update>
     </History>
 </PISI>

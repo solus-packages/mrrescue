@@ -1,8 +1,8 @@
 name       : mrrescue
 version    : 1.02e
-release    : 2
+release    : 3
 source     :
-    - git|https://github.com/SimonLarsen/mrrescue.git : a5be73c60acb8d1be506f7b5e48e784492ba96ce
+    - git|https://github.com/SimonLarsen/mrrescue.git : 1.02e
 license    :
     - BSD-3-Clause
     - CC-BY-SA-3.0
